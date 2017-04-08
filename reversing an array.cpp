@@ -29,13 +29,13 @@ int main()
 //no need to include any other but this takes a bit more time to execute so use 
 #include<iostream>
 #include<algorithm>
-typedef int ma;
+using namespace std;
 int main(){
-  ma n;
-  cin>>n;
-  ma arr[n];
-  for(ma i=0;i<n;i++) cin>>arr[i];
-  reverse(arr,arr+n);
-  for(ma i=0;i<n;i++) cout<<arr[i];
+	int n;
+	cin>>n;
+	int a[n];
+	for(int i=0;i<n;i++) cin>>a[i];
+	reverse(a,a+n);
+	for(int i =0;i<n;i++) cout<<a[i]<<" ";
 }
 */
